@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomadiq Travel Destinations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #A8D5BA;
+      --blue: #B5D9DF;
+      --text-dark: #2F4F4F;
+      --text-light: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      color: var(--text-dark);
+      background-color: #F5F9F6;
+    }
+
+    header {
+      background-color: var(--blue);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    header:hover {
+      background-color: #a0cfd7;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text-dark);
+      margin: 0 0.75rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #2d7a78;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: var(--green);
+      font-family: 'Playfair Display', serif;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .about {
+      padding: 2rem;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--blue);
+    }
+
+    .cta p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta button {
+      background-color: #2d7a78;
+      color: var(--text-light);
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta button:hover {
+      background-color: #1f5c5a;
+    }
+
+    @media (min-width: 600px) {
+      header, .hero, .about, .cta {
+        padding: 4rem;
+      }
+      .hero h1 {
+        font-size: 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌍 Nomadiq Travel Destinations</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Explore Sustainable Travel</h1>
+    <p>Join us on a journey to discover the world responsibly. We connect you with eco-conscious travel experiences that leave a light footprint and lasting memories.</p>
+  </section>
+
+  <section class="about">
+    <h2>About Nomadiq Travel Destinations</h2>
+    <p>We are dedicated to promoting sustainable and ethical travel. Our mission is to inspire travelers to explore responsibly, supporting local communities and protecting the planet.</p>
+  </section>
+
+  <section class="cta">
+    <p>Ready to start your next adventure the sustainable way?</p>
+    <button>Plan Your Trip</button>
+  </section>
+</body>
+</html>
